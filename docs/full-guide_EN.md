@@ -182,7 +182,7 @@ To get started quickly, you need at minimum:
 
 ### 5. Done!
 
-Default schedule: Every weekday at **18:00 (Beijing Time)** automatic execution.
+Default schedule: Every weekday at **15:00 (Beijing Time)** automatic execution.
 
 ---
 
@@ -580,7 +580,7 @@ Edit `.github/workflows/00-daily-analysis.yml`:
 ```yaml
 schedule:
   # UTC time, Beijing time = UTC + 8
-  - cron: '0 10 * * 1-5'   # Monday to Friday 18:00 (Beijing Time)
+  - cron: '0 7 * * 1-5'   # Monday to Friday 15:00 (Beijing Time)
 ```
 
 Common time reference:
